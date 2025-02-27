@@ -8,6 +8,8 @@
 # an empty list variable for holding data categories (e.g., data_categories),
 # and an empty list variable for holding the data numbers (e.g. data_numbers).
 
+import matplotlib.pyplot as plt
+
 data_entry = ''
 data_categories = []
 data_numbers = []
