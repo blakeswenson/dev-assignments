@@ -50,10 +50,12 @@ while data_entry != '-1':
     #prompt for another data point
     data_entry = input('Enter a data point (-1 to stop input):')
 
+##7. Create a bar plot by modifying instructions 
+
 #plotting data_categories and data_numbers
 x_pos = range(len(data_categories)) # creates the number of bars required
 plt.barh(x_pos, data_numbers)  #creates a horizontal bar graph ploting performance versus the number of bars required
-plt.yticks(x_pos, data_categories)    #labels the bars with programming language names
-plt.xlabel(column2_header)
-plt.title(graph_title)
-plt.show()
+plt.yticks(x_pos, data_categories) # labels the bars with programming language names
+plt.xlabel(column2_header) #label the x-axis
+plt.title(graph_title) #label the graph title
+plt.show() #show the graph
