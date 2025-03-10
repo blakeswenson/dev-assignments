@@ -1,30 +1,30 @@
-play_names = [ ## Plays
-    'Romeo and Juliet',
-    'Macbeth',
-    'Hamlet',
-]
+play_names = {  ## Plays
+    0: 'Romeo and Juliet',
+    1: 'Macbeth',
+    2: 'Hamlet',
+}
 
-seat_types = [ ## Seating levels
-    'Orchestra',
-    'Mezzanine',
-    'Balcony',
-]
+seat_types = {  ## Seating levels
+    0: 'Orchestra',
+    1: 'Mezzanine',
+    2: 'Balcony',
+}
 
-ticket_types_1 = [ ## Romeo and Juliet seating costs
-    100, ## Orchestra
-    75, ## Mezzanine
-    50, ## Balcony
-]
-ticket_types_2 = [ ## Macbeth seating costs
-    90, ## Orchestra
-    75, ## Mezzanine
-    45, ## Balcony
-]
-ticket_types_3 = [ ## Hamlet seating costs
-    80, ## Orchestra
-    65, ## Mezzanine
-    40, ## Balcony
-]
+ticket_types_1 = {  ## Romeo and Juliet seating costs
+    0: 100,  ## Orchestra
+    1: 75,   ## Mezzanine
+    2: 50,   ## Balcony
+}
+ticket_types_2 = {  ## Macbeth seating costs
+    0: 90,   ## Orchestra
+    1: 70,   ## Mezzanine
+    2: 45,   ## Balcony
+}
+ticket_types_3 = {  ## Hamlet seating costs
+    0: 80,   ## Orchestra
+    1: 65,   ## Mezzanine
+    2: 40,   ## Balcony
+}
 
 ## Define global variables
 play_selected = 'None'
