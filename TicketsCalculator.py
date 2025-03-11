@@ -68,11 +68,11 @@ def select_seating(): ## Select seating
     global seat_type
     while seat_type == 'None':
         if play_selected == 'Romeo and Juliet':
-            validate_seating(int(input(f'Select seating (1: Orchestra ${ticket_types_1[0]}, 2: Mezzanine ${ticket_types_1[1]}, 3: Balcony ${ticket_types_1[2]},):')))
+            validate_seating(int(input(f'Select seating (1: Orchestra ${ticket_types_1[0]}, 2: Mezzanine ${ticket_types_1[1]}, 3: Balcony ${ticket_types_1[2]}):')))
         elif play_selected == 'Macbeth':
-            validate_seating(int(input(f'Select seating (1: Orchestra ${ticket_types_2[0]}, 2: Mezzanine ${ticket_types_2[1]}, 3: Balcony ${ticket_types_2[2]},):')))
+            validate_seating(int(input(f'Select seating (1: Orchestra ${ticket_types_2[0]}, 2: Mezzanine ${ticket_types_2[1]}, 3: Balcony ${ticket_types_2[2]}):')))
         elif play_selected == 'Hamlet':
-            validate_seating(int(input(f'Select seating (1: Orchestra ${ticket_types_3[0]}, 2: Mezzanine ${ticket_types_3[1]}, 3: Balcony ${ticket_types_3[2]},):')))
+            validate_seating(int(input(f'Select seating (1: Orchestra ${ticket_types_3[0]}, 2: Mezzanine ${ticket_types_3[1]}, 3: Balcony ${ticket_types_3[2]}):')))
 
 
 def validate_tickets(user_input): ## Validate ticket quantity
